@@ -183,7 +183,7 @@ public:
 
     void create(vector<point> points){
         root = new node(points);
-        root -> create_tree(points.size()/2);
+        root -> create_tree();
     }
 
     void inorder(node *curr, int level){
